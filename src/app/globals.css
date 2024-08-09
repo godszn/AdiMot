@@ -2,32 +2,264 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+    font-family: "Quicksand";
+    src: url(../font/static/Quicksand-Medium.ttf);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.page {
+    font-family: "Quicksand" !important;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.bgmb {
+    display: none;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.dropdown {
+    display: none;
 }
+
+.mbslash {
+    display: none;
+}
+
+
+@media only screen and (max-width:334px) {
+    .bgfs {
+        display: none !important;
+    }
+
+    .navlinks {
+        display: none !important;
+    }
+
+    .navbar-wrapper {
+        padding-left: 33px !important;
+        padding-right: 33px !important;
+        padding-top: 45px !important;
+    }
+
+    .navbrand img {
+        width: 50% !important;
+    }
+
+    .dropdown img {
+        width: 65% !important;
+    }
+
+    .dropdown {
+        display: flex;
+    }
+
+    .bgmb {
+        display: block;
+    }
+
+    .socials {
+        display: none !important;
+    }
+
+    .main-wrappertext {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        top: 20% !important;
+    }
+
+    .main-text {
+        margin-left: 25px !important; 
+    }
+
+    .main-text h1 {
+        font-size: 25px !important;
+        width: 100% !important;
+    }
+
+    .learn {
+        display: none !important;
+    }
+
+    .slash {
+        display: none !important;
+    }
+
+    .mbslash {
+        display: block !important;
+    }
+
+    .main-component {
+        height: fit-content !important;
+    }
+
+}
+
+@media only screen and (min-width: 335px) and (max-width: 425px) {
+    .bgfs {
+        display: none !important;
+    }
+
+    .bgmb {
+        display: block;
+    }
+
+    .dropdown {
+        display: flex;
+    }
+
+    .navlinks {
+        display: none !important;
+    }
+
+    .navbar-wrapper {
+        padding-left: 33px !important;
+        padding-right: 33px !important;
+        padding-top: 45px !important;
+    }
+
+    .navbrand img {
+        width: 50% !important;
+    }
+
+    .dropdown img {
+        width: 65% !important;
+    }
+
+    .socials {
+        display: none !important;
+    }
+
+    .main-wrappertext {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        top: 32% !important;
+    }
+
+    .main-text {
+        margin-left: 25px !important; 
+    }
+
+    .main-text h1 {
+        font-size: 32px !important;
+        width:100% !important;
+    }
+
+    .learn {
+        display: none !important;
+    }
+
+    .slash {
+        display: none !important;
+    }
+
+    .mbslash {
+        display: block !important;
+    }
+
+    .main-component {
+        height: fit-content !important;
+    }
+
+    .service-wrapper {
+        padding: 30px !important;
+    }
+
+    .service-container {
+        flex-direction: column !important;
+    }
+
+    .service-widget img {
+        rotate: 90deg !important;
+    }
+
+    .service-details {
+        text-align: center !important;
+    }
+    
+    .service-details p {
+        width: 100% !important;
+    }
+
+    .service-details ul {
+        padding: 10px !important;
+    }
+
+    .service-details li {
+        font-size: 17px !important;
+    }
+
+    .reason-wrapper {
+        padding: 30px !important;
+    }
+
+    .reason-components {
+        flex-direction: column !important;
+    }
+
+    .reason-widget {
+        display: none !important;
+    }
+
+    .reason-text {
+        width: 100% !important;
+    }
+
+    .reason-text-header {
+        width: 100% !important;
+    }
+
+    .number-wrapper {
+        padding: 30px !important;
+    }
+
+    .number-widgets {
+        gap: 10px !important;
+    }
+
+    .number-widgets h1 {
+        font-size: 20px !important;
+    }
+
+    .number-widgets h3 {
+        font-size: 12px !important;
+    }
+
+    .the {
+        margin-bottom: .3rem !important;
+    }
+
+    .Contact-wrapper {
+        padding: 30px !important;
+    }
+
+    .contact-header > div > p{
+        width: 100% !important;
+    }
+
+    .contact-form {
+        margin-top: 30px !important;
+    }
+
+    .contact-widget {
+        width: 95% !important;
+    }
+
+    .contact-container {
+        gap: 0% !important;
+    }
+
+    .service-wrapper {
+        padding: 30px !important;
+    }
+
+    .service-widget {
+        width: 100% !important;
+    }
+
+    .service-details {
+        width: 100% !important;
+    }
+
+}
+
+@media only screen and (min-width: 611px) and (max-width: 768px) {}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {}

@@ -35,6 +35,10 @@ html {
     color: '#00000040';
 }
 
+.footermb {
+    display: none;
+}
+
 
 @media only screen and (max-width:334px) {
     .bgfs {
@@ -171,8 +175,11 @@ html {
     }
 
     .service-wrapper {
-        padding: 30px !important;
+        margin: 30px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
     }
+
 
     .service-container {
         flex-direction: column !important;
@@ -190,6 +197,14 @@ html {
         width: 100% !important;
     }
 
+    .footerbg {
+        display: none !important;
+    }
+
+    .footermb {
+        display: block;
+    }
+
     .service-details ul {
         padding: 10px !important;
     }
@@ -199,7 +214,7 @@ html {
     }
 
     .reason-wrapper {
-        padding: 30px !important;
+        margin: 30px !important;
     }
 
     .reason-components {
@@ -219,7 +234,7 @@ html {
     }
 
     .number-wrapper {
-        padding: 30px !important;
+        margin: 30px !important;
     }
 
     .number-widgets {
@@ -239,7 +254,7 @@ html {
     }
 
     .Contact-wrapper {
-        padding: 30px !important;
+        margin: 30px !important;
     }
 
     .contact-header > div > p{
@@ -258,16 +273,22 @@ html {
         gap: 0% !important;
     }
 
-    .service-wrapper {
-        padding: 30px !important;
-    }
-
     .service-widget {
         width: 100% !important;
     }
 
     .service-details {
         width: 100% !important;
+    }
+
+    .footer-content {
+        flex-direction: column !important;
+        gap: 8rem !important;
+        top: 23% !important;
+    }
+
+    .ine {
+        display: none !important;
     }
 
 }

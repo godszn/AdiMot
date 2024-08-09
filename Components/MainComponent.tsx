@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import background from '../src/assets/Rectangle 1.svg'
-import backgroundsmall from '../src/assets/mbback.svg'
+import background from '../src/assets/background.svg'
+import backgroundsmall from '../src/assets/backgroundsmall.svg'
 import logo from '../src/assets/logo.svg'
 import link from '../src/assets/link.svg'
 import ig from '../src/assets/ig.svg'
@@ -66,9 +66,6 @@ const MainComponent = () => {
                         </Link>
                     </div>
                 </section>
-                <div className='absolute top-[571px] right-0 flex flex-col items-end'>
-                    <Image src={slash} className='slash' alt='' />
-                </div>
                 <Image className='w-full bg-full bgfs' src={background} height={500} style={{ width: '100%', backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} alt='' />
                 <Image className='w-full bg-full bgmb' src={backgroundsmall} height={500} style={{ width: '100%', backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} alt='' />
             </main>

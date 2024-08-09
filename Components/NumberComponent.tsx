@@ -7,7 +7,7 @@ import country from '../src/assets/world.svg'
 const NumberComponent = () => {
     return (
         <div>
-            <main className="number-wrapper  p-[120px] pt-[70px] pb-[30px] flex flex-col">
+            <main className="number-wrapper  m-[120px] pt-[70px] pb-[30px] flex flex-col">
                 <div className="number-header">
                     <h1 className=' text-center text-[40px] pt-[65px] mb-[50px] ' style={{ borderTop: '1px solid black' }}>
                         See Our Numbers

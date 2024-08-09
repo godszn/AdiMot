@@ -9,14 +9,16 @@ import face from '../src/assets/face.svg'
 import x from '../src/assets/x.svg'
 import phone from '../src/assets/phone.svg'
 import mail from '../src/assets/mail.svg'
+import fbacksmall from '../src/assets/footermb.svg'
 
 
 const FooterComponent = () => {
     return (
         <div>
             <main className="footer-wrapper flex relative mt-[75px] ">
-                <Image src={line} className='absolute top-[-13%]' alt='' />
-                <Image className='w-full bg-full' src={fback} height={500} style={{ width: '100%', backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} alt='' />
+                <Image src={line} className='ine absolute top-[-13%]' alt='' />
+                <Image className='w-full bg-full footerbg' src={fback} height={500} style={{ width: '100%', backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} alt='' />
+                <Image className='w-full bg-full footermb' src={fbacksmall} height={500} style={{ width: '100%', backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} alt='' />
                 <div className="footer-content flex absolute top-[40%] w-full justify-between text-white  pr-[70px]  pl-[70px]">
                     <section className='gap-[25px] flex flex-col'>
                         <Image src={logo} alt='' />

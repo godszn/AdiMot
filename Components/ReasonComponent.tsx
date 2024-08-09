@@ -6,7 +6,7 @@ import check from '../src/assets/check.svg'
 const ReasonComponent = () => {
     return (
         <div>
-            <main className="reason-wrapper p-[120px] pb-[30px] flex flex-col">
+            <main id="company" className="reason-wrapper m-[120px] pb-[30px] flex flex-col">
                 <h1 className='reason-header text-center text-[40px] pt-[65px] mb-[50px] ' style={{borderTop: '1px solid black'}}>
                     Why Us
                 </h1>

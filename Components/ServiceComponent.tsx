@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image'
 import React from 'react'
-import servw from '../src/assets/servw.svg'
+import servw from '../src/assets/hex.svg'
 import leaf from '../src/assets/leaf.svg'
 import dropdown from '../src/assets/Left-Arrow.svg'
 import house from '../src/assets/house.svg'
@@ -19,7 +19,7 @@ const ServiceComponent = () => {
     };
     return (
         <div>
-            <main className="service-wrapper flex justify-evenly pr-[120px] pl-[120px]">
+            <main id="services" className="service-wrapper flex justify-evenly pr-[120px] pl-[120px]">
                 <div className="service-container flex">
                     <section className="service-widget w-[50%] justify-center flex">
                         <Image src={servw} className='w-[65%]' alt='' />

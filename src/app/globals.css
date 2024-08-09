@@ -7,7 +7,15 @@
     src: url(../font/static/Quicksand-Medium.ttf);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .page {
+    font-family: "Quicksand" !important;
+}
+
+.about-wrapper {
     font-family: "Quicksand" !important;
 }
 
@@ -21,6 +29,10 @@
 
 .mbslash {
     display: none;
+}
+
+.nameform ::placeholder {
+    color: '#00000040';
 }
 
 

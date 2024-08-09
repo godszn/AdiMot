@@ -10,6 +10,7 @@ import x from '../src/assets/x.svg'
 import slash from '../src/assets/slash.svg'
 import reach from '../src/assets/reach.svg'
 import dropdown from '../src/assets/dropdown.svg'
+import Link from 'next/link'
 
 const MainComponent = () => {
     return (
@@ -21,18 +22,26 @@ const MainComponent = () => {
                     </div>
                     <div className="navlinks items-center flex">
                         <ul className='gap-[42px] text-[white] text-[17px] cursor-pointer flex font-semibold'>
-                            <li>
-                                About
-                            </li>
-                            <li>
-                                Services
-                            </li>
-                            <li>
-                                Company
-                            </li>
-                            <li>
-                                Contact
-                            </li>
+                            <Link href='/About'>
+                                <li>
+                                    About
+                                </li>
+                            </Link>
+                            <Link href='#services'>
+                                <li>
+                                    Services
+                                </li>
+                            </Link>
+                            <Link href='#company'>
+                                <li>
+                                    Company
+                                </li>
+                            </Link>
+                            <Link href='#contact'>
+                                <li>
+                                    Contact
+                                </li>
+                            </Link>
                         </ul>
                     </div>
                     <section className='dropdown items-center flex'>
@@ -50,14 +59,15 @@ const MainComponent = () => {
                         <h1 className='text-[60px] w-[70%]'>
                             The best solution for every sector problem.
                         </h1>
-                        <button className='learn bg-[#053D60BF] rounded-md w-[150px] h-[45px] mt-[50px] font-semibold'>
-                            Learn more
-                        </button>
+                        <Link href='#services'>
+                            <button className='learn bg-[#053D60BF] rounded-md w-[150px] h-[45px] mt-[50px] font-semibold'>
+                                Learn more
+                            </button>
+                        </Link>
                     </div>
                 </section>
                 <div className='absolute top-[571px] right-0 flex flex-col items-end'>
                     <Image src={slash} className='slash' alt='' />
-                    <Image src={reach} className='right-[50px] top-[50px] cursor-pointer w-[115px] absolute' alt='' />
                 </div>
                 <Image className='w-full bg-full bgfs' src={background} height={500} style={{ width: '100%', backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} alt='' />
                 <Image className='w-full bg-full bgmb' src={backgroundsmall} height={500} style={{ width: '100%', backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} alt='' />

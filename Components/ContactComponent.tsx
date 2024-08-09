@@ -5,7 +5,7 @@ import contact from '../src/assets/contact.svg'
 const ContactComponent = () => {
     return (
         <div>
-            <main className="Contact-wrapper flex flex-col pt-[70px] p-[120px] pb-[30px] ">
+            <main id='contact' className="Contact-wrapper flex flex-col mt-[70px] m-[120px] pb-[30px] ">
                 <section className="contact-header flex flex-col">
                     <h1 className=' text-center text-[40px] pt-[50px] mb-[30px] ' style={{ borderTop: '1px solid black' }}>
                         Contact Us
@@ -24,11 +24,11 @@ const ContactComponent = () => {
                     <div className="contact-form w-[380px] justify-center mt-[90px] p-[1.5rem] h-[400px]" style={{ boxShadow: '1px 2px 10px #00000040', borderRadius: '1rem' }}>
                         <section className='form-wrapper'>
                             <div className="personal w-[100%]">
-                                <div className="nameform gap-[1rem] text-[#00000040] flex">
+                                <div className="nameform gap-[1rem] text-black flex">
                                     <input type="text" placeholder='First Name' className='w-[160px] h-[45px] text-center' style={{ borderRadius: '.8rem', border: '1px solid #00000040', outline: 'none' }} />
                                     <input type="text" placeholder='Last Name' className='w-[160px] h-[45px] text-center' style={{ borderRadius: '.8rem', border: '1px solid #00000040', outline: 'none' }} />
                                 </div>
-                                <div className="nameform gap-[1rem] text-[#00000040] flex mt-[20px]">
+                                <div className="nameform gap-[1rem] text-black flex mt-[20px]">
                                     <input type="text" placeholder='Work Email' className='w-[160px] h-[45px] text-center' style={{ borderRadius: '.8rem', border: '1px solid #00000040', outline: 'none' }} />
                                     <input type="text" placeholder='Phone Number' className='w-[160px] h-[45px] text-center' style={{ borderRadius: '.8rem', border: '1px solid #00000040', outline: 'none' }} />
                                 </div>

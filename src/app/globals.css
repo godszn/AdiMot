@@ -349,9 +349,25 @@ html {
         margin-top: 45px;
     }
 
+    .contact-container {
+        justify-content: center !important;
+    }
+
+    .contact-form {
+        width: 100% !important;
+    }
+
+    .contact-widget {
+        display: none !important;
+    }
+
+    .nameform  input {
+        width: 50% !important;
+    }
+
 }
 
-@media only screen and (min-width: 611px) and (max-width: 768px) {
+@media only screen and (min-width: 426px) and (max-width: 610px) {
     .bgfs {
         display: none !important;
     }
@@ -397,7 +413,7 @@ html {
     }
 
     .main-text h1 {
-        font-size: 32px !important;
+        font-size: 39px !important;
         width: 100% !important;
     }
 
@@ -591,6 +607,26 @@ html {
         justify-content: center;
         margin-top: 45px;
     }
+
+    .contact-container {
+        justify-content: center !important;
+    }
+
+    .contact-form {
+        width: 90% !important;
+    }
+
+    .contact-widget {
+        display: none !important;
+    }
+
+    .nameform  input {
+        width: 50% !important;
+    }
+
+
 }
+
+@media only screen and (min-width: 611px) and (max-width: 768px) {}
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {}

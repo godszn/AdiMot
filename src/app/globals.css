@@ -82,7 +82,7 @@ html {
     }
 
     .main-text {
-        margin-left: 25px !important; 
+        margin-left: 25px !important;
     }
 
     .main-text h1 {
@@ -150,12 +150,12 @@ html {
     }
 
     .main-text {
-        margin-left: 25px !important; 
+        margin-left: 25px !important;
     }
 
     .main-text h1 {
         font-size: 32px !important;
-        width:100% !important;
+        width: 100% !important;
     }
 
     .learn {
@@ -192,7 +192,7 @@ html {
     .service-details {
         text-align: center !important;
     }
-    
+
     .service-details p {
         width: 100% !important;
     }
@@ -257,7 +257,7 @@ html {
         margin: 30px !important;
     }
 
-    .contact-header > div > p{
+    .contact-header>div>p {
         width: 100% !important;
     }
 
@@ -291,8 +291,306 @@ html {
         display: none !important;
     }
 
+    .about-wrapper {
+        padding: 20px !important;
+    }
+
+    .about-wrapper nav {
+        margin: 15px !important;
+    }
+
+    .about-header {
+        margin-top: 40px !important;
+    }
+
+    .about-header p {
+        font-size: 15px !important;
+    }
+
+    .mission {
+        flex-direction: column !important;
+    }
+
+    .mission-text {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .mission-text p {
+        width: 100% !important;
+        font-size: 15px !important;
+    }
+
+    .mission-widget {
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        margin-top: 45px;
+    }
+
+    .vision {
+        flex-direction: column !important;
+    }
+
+    .vision-text {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .vision-text p {
+        width: 100% !important;
+        font-size: 15px !important;
+    }
+
+    .vision-widget {
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        margin-top: 45px;
+    }
+
 }
 
-@media only screen and (min-width: 611px) and (max-width: 768px) {}
+@media only screen and (min-width: 611px) and (max-width: 768px) {
+    .bgfs {
+        display: none !important;
+    }
+
+    .bgmb {
+        display: block;
+    }
+
+    .dropdown {
+        display: flex;
+    }
+
+    .navlinks {
+        display: none !important;
+    }
+
+    .navbar-wrapper {
+        padding-left: 33px !important;
+        padding-right: 33px !important;
+        padding-top: 45px !important;
+    }
+
+    .navbrand img {
+        width: 50% !important;
+    }
+
+    .dropdown img {
+        width: 65% !important;
+    }
+
+    .socials {
+        display: none !important;
+    }
+
+    .main-wrappertext {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        top: 32% !important;
+    }
+
+    .main-text {
+        margin-left: 25px !important;
+    }
+
+    .main-text h1 {
+        font-size: 32px !important;
+        width: 100% !important;
+    }
+
+    .learn {
+        display: none !important;
+    }
+
+    .slash {
+        display: none !important;
+    }
+
+    .mbslash {
+        display: block !important;
+    }
+
+    .main-component {
+        height: fit-content !important;
+    }
+
+    .service-wrapper {
+        margin: 30px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+
+    .service-container {
+        flex-direction: column !important;
+    }
+
+    .service-widget img {
+        rotate: 90deg !important;
+    }
+
+    .service-details {
+        text-align: center !important;
+    }
+
+    .service-details p {
+        width: 100% !important;
+    }
+
+    .footerbg {
+        display: none !important;
+    }
+
+    .footermb {
+        display: block;
+    }
+
+    .service-details ul {
+        padding: 10px !important;
+    }
+
+    .service-details li {
+        font-size: 17px !important;
+    }
+
+    .reason-wrapper {
+        margin: 30px !important;
+    }
+
+    .reason-components {
+        flex-direction: column !important;
+    }
+
+    .reason-widget {
+        display: none !important;
+    }
+
+    .reason-text {
+        width: 100% !important;
+    }
+
+    .reason-text-header {
+        width: 100% !important;
+    }
+
+    .number-wrapper {
+        margin: 30px !important;
+    }
+
+    .number-widgets {
+        gap: 10px !important;
+    }
+
+    .number-widgets h1 {
+        font-size: 20px !important;
+    }
+
+    .number-widgets h3 {
+        font-size: 12px !important;
+    }
+
+    .the {
+        margin-bottom: .3rem !important;
+    }
+
+    .Contact-wrapper {
+        margin: 30px !important;
+    }
+
+    .contact-header>div>p {
+        width: 100% !important;
+    }
+
+    .contact-form {
+        margin-top: 30px !important;
+    }
+
+    .contact-widget {
+        width: 95% !important;
+    }
+
+    .contact-container {
+        gap: 0% !important;
+    }
+
+    .service-widget {
+        width: 100% !important;
+    }
+
+    .service-details {
+        width: 100% !important;
+    }
+
+    .footer-content {
+        flex-direction: column !important;
+        gap: 8rem !important;
+        top: 23% !important;
+    }
+
+    .ine {
+        display: none !important;
+    }
+
+    .about-wrapper {
+        padding: 20px !important;
+    }
+
+    .about-wrapper nav {
+        margin: 15px !important;
+    }
+
+    .about-header {
+        margin-top: 40px !important;
+    }
+
+    .about-header p {
+        font-size: 15px !important;
+    }
+
+    .mission {
+        flex-direction: column !important;
+    }
+
+    .mission-text {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .mission-text p {
+        width: 100% !important;
+        font-size: 15px !important;
+    }
+
+    .mission-widget {
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        margin-top: 45px;
+    }
+
+    .vision {
+        flex-direction: column !important;
+    }
+
+    .vision-text {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .vision-text p {
+        width: 100% !important;
+        font-size: 15px !important;
+    }
+
+    .vision-widget {
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        margin-top: 45px;
+    }
+}
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {}

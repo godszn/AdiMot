@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import fback from '../src/assets/ftback.svg'
+import fback from '../src/assets/footerimg.svg'
 import line from '../src/assets/Rectangle 14.svg'
 import logo from '../src/assets/logo.svg'
 import link from '../src/assets/link.svg'
@@ -16,11 +16,10 @@ const FooterComponent = () => {
     return (
         <div>
             <main className="footer-wrapper flex relative mt-[75px] ">
-                <Image src={line} className='ine absolute top-[-13%]' alt='' />
                 <Image className='w-full bg-full footerbg' src={fback} height={500} style={{ width: '100%', backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} alt='' />
                 <Image className='w-full bg-full footermb' src={fbacksmall} height={500} style={{ width: '100%', backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} alt='' />
                 <div className="footer-content flex absolute top-[40%] w-full justify-between text-white  pr-[70px]  pl-[70px]">
-                    <section className='gap-[25px] flex flex-col'>
+                    <section className='logs-container gap-[25px] flex flex-col'>
                         <Image src={logo} alt='' />
                         <div className="socials ml-[25px] gap-[40px] flex">
                             <Image src={link} alt='' height={30} />

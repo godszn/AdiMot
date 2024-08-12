@@ -361,7 +361,7 @@ html {
         display: none !important;
     }
 
-    .nameform  input {
+    .nameform input {
         width: 50% !important;
     }
 
@@ -542,7 +542,7 @@ html {
 
     .footer-content {
         flex-direction: column !important;
-        gap: 8rem !important;
+        gap: 10rem !important;
         top: 23% !important;
     }
 
@@ -620,13 +620,410 @@ html {
         display: none !important;
     }
 
-    .nameform  input {
+    .nameform input {
         width: 50% !important;
     }
 
 
 }
 
-@media only screen and (min-width: 611px) and (max-width: 768px) {}
+@media only screen and (min-width: 611px) and (max-width: 768px) {
+    .bgfs {
+        display: none !important;
+    }
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) {}
+    .bgmb {
+        display: block;
+    }
+
+    .dropdown {
+        display: flex;
+    }
+
+    .navlinks {
+        display: none !important;
+    }
+
+    .socials {
+        display: none !important;
+    }
+
+    .main-component {
+        height: 'fit content' !important;
+    }
+
+    .main-wrappertext {
+        padding: 0 !important;
+    }
+
+    .main-component {
+        height: fit-content !important;
+    }
+
+    .main-wrappertext {
+        padding: 0 !important;
+    }
+
+    .main-text h1 {
+        font-size: 65px !important;
+        width: 95% !important;
+    }
+
+    .main-text button {
+        width: 150px !important;
+        height: 55px !important;
+        font-size: 20px !important;
+    }
+
+    .service-wrapper {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        margin-top: 50px !important;
+    }
+
+    .service-details p {
+        width: 100% !important;
+    }
+
+    .reason-wrapper {
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+
+    .reason-text-header {
+        width: 100% !important;
+    }
+
+    .reason-widget {
+        justify-content: center !important;
+        display: flex !important;
+    }
+
+    .number-wrapper {
+        margin-left:  20px !important;
+        margin-right:  20px !important;
+    }
+
+    .Contact-wrapper {
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+
+    .contact-widget {
+        display: flex !important;
+    }
+
+    .contact-header p{
+        width: 60% !important;
+    }
+
+    .contact-form {
+        width: 50% !important;
+    }
+
+    .nameform input {
+        width: 50% !important;
+    }
+
+    .footer-content {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .logs-container {
+        display: flex !important;
+        justify-content: center !important;
+        width: 35% !important;
+    }
+
+    .logs-container img {
+        width: 90% !important;
+    }
+
+    .service-widget img{
+        width: 85% !important;
+    }
+
+    .about-wrapper {
+        padding: 20px !important;
+    }
+
+    .about-wrapper nav {
+        margin: 15px !important;
+    }
+
+    .about-header {
+        margin-top: 40px !important;
+    }
+
+    .about-header p {
+        font-size: 15px !important;
+    }
+
+    .mission {
+        flex-direction: column !important;
+    }
+
+    .mission-text {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .mission-text p {
+        width: 100% !important;
+        font-size: 15px !important;
+    }
+
+    .mission-widget {
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        margin-top: 45px;
+    }
+
+    .vision {
+        flex-direction: column !important;
+    }
+
+    .vision-text {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .vision-text p {
+        width: 100% !important;
+        font-size: 15px !important;
+    }
+
+    .vision-widget {
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        margin-top: 45px;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .bgfs {
+        display: none !important;
+    }
+
+    .bgmb {
+        display: block;
+    }
+
+    .dropdown {
+        display: flex;
+    }
+
+    .navlinks {
+        display: none !important;
+    }
+
+    .socials {
+        display: none !important;
+    }
+
+    .main-component {
+        height: fit-content !important;
+    }
+
+    .main-wrappertext {
+        padding: 0 !important;
+    }
+
+    .main-text h1 {
+        font-size: 75px !important;
+        width: 95% !important;
+    }
+
+    .main-text button {
+        width: 200px !important;
+        height: 65px !important;
+        font-size: 20px !important;
+    }
+
+    .service-wrapper {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        margin-top: 50px !important;
+    }
+
+    .service-details p {
+        width: 100% !important;
+    }
+
+    .reason-wrapper {
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+
+    .reason-text-header {
+        width: 100% !important;
+    }
+
+    .reason-widget {
+        justify-content: center !important;
+        display: flex !important;
+    }
+
+    .number-wrapper {
+        margin-left:  20px !important;
+        margin-right:  20px !important;
+    }
+
+    .Contact-wrapper {
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+
+    .contact-widget {
+        display: flex !important;
+    }
+
+    .contact-header p{
+        width: 60% !important;
+    }
+
+    .contact-form {
+        width: 50% !important;
+    }
+
+    .nameform input {
+        width: 50% !important;
+    }
+
+    .footer-content {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .about-wrapper {
+        padding: 20px !important;
+    }
+
+    .about-wrapper nav {
+        margin: 15px !important;
+    }
+
+    .about-header {
+        margin-top: 40px !important;
+    }
+
+    .about-header p {
+        font-size: 15px !important;
+    }
+
+    .mission {
+        flex-direction: column !important;
+    }
+
+    .mission-text {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .mission-text p {
+        width: 100% !important;
+        font-size: 15px !important;
+    }
+
+    .mission-widget {
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        margin-top: 45px;
+    }
+
+    .vision {
+        flex-direction: column !important;
+    }
+
+    .vision-text {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .vision-text p {
+        width: 100% !important;
+        font-size: 15px !important;
+    }
+
+    .vision-widget {
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        margin-top: 45px;
+    }
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1180px) {
+.main-wrappertext {
+    top: 21% !important;
+}
+
+.main-text {
+    font-size: 50px !important;
+    width: 100% !important;
+}
+
+.about-wrapper {
+    padding: 20px !important;
+}
+
+.about-wrapper nav {
+    margin: 15px !important;
+}
+
+.about-header {
+    margin-top: 40px !important;
+}
+
+.about-header p {
+    font-size: 15px !important;
+}
+
+.mission {
+    flex-direction: column !important;
+}
+
+.mission-text {
+    width: 100% !important;
+    text-align: center !important;
+}
+
+.mission-text p {
+    width: 100% !important;
+    font-size: 15px !important;
+}
+
+.mission-widget {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.vision {
+    flex-direction: column !important;
+}
+
+.vision-text {
+    width: 100% !important;
+    text-align: center !important;
+}
+
+.vision-text p {
+    width: 100% !important;
+    font-size: 15px !important;
+}
+
+.vision-widget {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+}

@@ -44,7 +44,10 @@ const ServiceComponent = () => {
                                 </div>
                                 {openIndex === 0 && (
                                     <div className='mt-[1rem] p-[1rem] bg-gray-100'>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                                        <p className='text-[14px]'>
+                                            We are a sustainable and innovative agribusiness company and we have been actively engaged in the cocoa value chain, leveraging innovative technologies and sustainable practices to enhance productivity and minimize environmental impact. Looking ahead, we plan to extend our agricultural portfolio to include other high-potential crops such as cassava and oil palm.
+                                            One of our key initiatives in this area is the use of solar dryers for our cocoa processing. This eco-friendly technology not only reduces our carbon footprint but also ensures the quality and preservation of the cocoa beans, contributing to the overall sustainability of our supply chain.
+                                        </p>
                                     </div>
                                 )}
                             </div>
@@ -60,7 +63,9 @@ const ServiceComponent = () => {
                                 </div>
                                 {openIndex === 1 && (
                                     <div className='mt-[1rem] p-[1rem] bg-gray-100'>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                                        <p className='text-[14px]'>Alongside our agricultural initiatives, Adimot Resources and Investment Limited is actively engaged in the energy sector, focusing on the development and deployment of renewable energy solutions. Our renewable energy projects span various applications, from powering our own operations to providing affordable and accessible energy solutions to the communities we serve.
+                                            Our renewable energy portfolio includes investments in solar, wind, and biomass technologies, as well as the development of energy storage systems and smart grid infrastructure. By prioritizing clean, sustainable energy, we aim to contribute to the global transition away from fossil fuels and towards a low-carbon future.
+                                        </p>
                                     </div>
                                 )}
                             </div>
@@ -76,7 +81,8 @@ const ServiceComponent = () => {
                                 </div>
                                 {openIndex === 2 && (
                                     <div className='mt-[1rem] p-[1rem] bg-gray-100'>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                                        <p className='text-[14px]'>In the housing sector, we are committed to promoting sustainable practices and technologies. Our sustainable housing initiatives aim to create eco-friendly living spaces that minimize resource consumption and carbon emissions.
+                                            Our sustainable housing projects incorporate energy-efficient design, renewable energy systems, water conservation measures, and the use of sustainable building materials. We work closely with architects, engineers, and construction partners to ensure that our </p>
                                     </div>
                                 )}
                             </div>
@@ -88,11 +94,13 @@ const ServiceComponent = () => {
                                             Sustainable Automobiles
                                         </li>
                                     </section>
-                                    <Image src={dropdown} className='cursor-pointer'onClick={() => handleDropdownClick(3)}  alt='' />
+                                    <Image src={dropdown} className='cursor-pointer' onClick={() => handleDropdownClick(3)} alt='' />
                                 </div>
                                 {openIndex === 3 && (
                                     <div className='mt-[1rem] p-[1rem] bg-gray-100'>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                                        <p className='text-[14px]'>Our work in the automobile industry prioritizes the development and adoption of energy-efficient and low-emission vehicles, contributing to a cleaner and more sustainable transportation ecosystem.
+                                            Through strategic partnerships and investments, we support the research, development, and commercialization of electric vehicles, hybrid technologies, and advanced propulsion systems. Additionally, we explore innovative mobility solutions, such as car-sharing and last-mile delivery services, to reduce the environmental impact of transportation.
+                                        </p>
                                     </div>
                                 )}
                             </div>
@@ -105,10 +113,12 @@ const ServiceComponent = () => {
                                         </li>
                                     </section>
                                     <Image src={dropdown} className='cursor-pointer' onClick={() => handleDropdownClick(4)} alt='' />
-                                </div>            
+                                </div>
                                 {openIndex === 4 && (
                                     <div className='mt-[1rem] p-[1rem] bg-gray-100'>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                                        <p className='text-[14px]'>At Adimot Resources and Investment Limited, sustainability is not just a buzzword, but a core principle that guides all our business activities. We are dedicated to finding innovative solutions that address the pressing environmental challenges of our time, creating a better future for generations to come.
+                                            Our commitment to sustainability is reflected in our daily operations, our investment decisions, and our engagement with local communities. We strive to integrate sustainable practices throughout our value chains, fostering a culture of environmental responsibility and social impact.
+                                            By aligning our business objectives with the United Nations Sustainable Development Goals, we are working towards a more inclusive, resilient, and sustainable global economy. We believe that sustainable development is not only essential for the well-being of </p>
                                     </div>
                                 )}
                             </div>

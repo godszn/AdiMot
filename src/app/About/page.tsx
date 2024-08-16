@@ -8,7 +8,7 @@ import polyg from '../../assets/Polygon.svg'
 import background from '../../assets/bgabout.svg'
 import Link from 'next/link'
 
-const page = () => {
+const Page = () => {
     const [isExpanded, setIsExpanded] = useState(false);
 
     const toggleReadMore = () => {
@@ -87,4 +87,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page

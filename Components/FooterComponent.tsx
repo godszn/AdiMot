@@ -36,13 +36,13 @@ const FooterComponent = () => {
                             <section className='flex gap-[5px] items-center'>
                                 <Image src={phone} height={20} alt='' />
                                 <p>
-                                    +234801272819
+                                    +2348038010108
                                 </p>
                             </section>
                             <section className='flex gap-[5px] items-center'>
                                 <Image src={mail} height={15} alt='' />
                                 <p>
-                                    example@email.com
+                                    adimot-investments@adimot.com.ng
                                 </p>
                             </section>
                         </div>

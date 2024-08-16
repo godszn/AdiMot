@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image'
 import React from 'react'
-import servw from '../src/assets/hex.svg'
+import servw from '../src/assets/hex.png'
 import leaf from '../src/assets/leaf.svg'
 import dropdown from '../src/assets/Left-Arrow.svg'
 import house from '../src/assets/house.svg'
